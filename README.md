@@ -32,7 +32,7 @@ while [ 1 ]; do `./bad-apple`; done
 - Make sure you are using an actual `gcc`. I have tested the code with 15.2.0.
   On macOS, the `gcc` command sometimes maps to `llvm`.
 - I tried to just generate the entire video in one compiler pass, but `gcc`
-  leaks memory (try to compile memleak.c if you don't believe me).
+  leaks memory (try to compile [memleak.c](https://github.com/alokmenghrajani/gcc-bad-apple/blob/main/memleak.c) if you don't believe me).
 
 ## Screen recording
 
